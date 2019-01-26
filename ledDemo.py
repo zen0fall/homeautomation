@@ -47,6 +47,7 @@ def shutdown():
     updater.is_idle=False
 
 def stop(bot, update):
+    bot.send_message(chat_id=update.message.chat_id, text="Stopping Server!")
     threading.Thread(target=shutdown).start()
     
 
