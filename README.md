@@ -1,4 +1,5 @@
 # homeautomation
+For detailed tutorial visit: https://www.zenofall.com
 Home automation proof of concept using RaspbrryPi and Telegram bot. Here I show how to control GPIO pins using a telegram bot running on your RaspberryPi
 
 You will need to install python library for telegram bot, the details can be found here:
